@@ -1688,7 +1688,6 @@ hiddenflingB.MouseButton1Click:Connect(function()
 end)
 
 makecharbutton("anti respawn (wait RespawnTime)").MouseButton1Click:Connect(respawnRequest)
-	NotificationLibrary:SendNotification("Success", "can't respawn no longer", 5)
 makecharbutton("no animations").MouseButton1Click:Connect(noanimations)
 makecharbutton("sit").MouseButton1Click:Connect(function()
 NotificationLibrary:SendNotification("Success", "now sitting", 5)
