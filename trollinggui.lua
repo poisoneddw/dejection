@@ -1887,7 +1887,7 @@ end)
 local antiflingb = makeutilbutton("anti fling")
 local antifling = false
 antiflingb.MouseButton1Click:Connect(function()
-	NotificationLibrary:SendNotification("Success", "shitty bots being annoying", 5)
+	NotificationLibrary:SendNotification("Success", "imagine those bots trying to kill you now", 5)
 	antifling = not antifling
 	antiflingb.Text = "anti fling" .. ((antifling and " (Enabled)") or "")
 end)
@@ -2012,7 +2012,7 @@ makeutilbutton("serverhop").MouseButton1Click:Connect(function()
 end)
 
 makeutilbutton("instant leave").MouseButton1Click:Connect(function()
-	NotificationLibrary:SendNotification("Success", "be a pussy", 5)
+	NotificationLibrary:SendNotification("Success", "fuck this shit im out", 5)
 	lp:Kick()
 	twait()
 	g:Shutdown()
@@ -2159,4 +2159,4 @@ end
 renderstepped:Wait()
 playercframe.Visible = false
 
-NotificationLibrary:SendNotification("Success", "Welcome, generic_account32124. Have fun!", 10)
+NotificationLibrary:SendNotification("Success", "Welcome back generic_account32124. Have fun!", 10)
