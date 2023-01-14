@@ -2160,4 +2160,4 @@ end
 renderstepped:Wait()
 playercframe.Visible = false
 
-NotificationLibrary:SendNotification("Success", "Welcome back generic_account32124. Have fun!", 10)
+NotificationLibrary:SendNotification("Success", "Welcome, generic_account32124. Have fun!", 10)
