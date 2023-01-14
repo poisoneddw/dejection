@@ -412,7 +412,7 @@ function Library:create(options)
 		Name = "Dejection",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://dejection.com/home"
+		Link = "https://github.com/poisoneddw/dejection"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
